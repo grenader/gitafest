@@ -38,6 +38,16 @@ gulp.task('vendor', function() {
       './node_modules/font-awesome/css/*'
     ])
     .pipe(gulp.dest('./vendor/font-awesome'))
+  gulp.src([
+      './node_modules/font-awesome/fonts/*'
+    ])
+    .pipe(gulp.dest('./vendor/fonts'))
+  
+  // bootstrap-social
+  gulp.src([
+      './node_modules/bootstrap-social/bootstrap-social.css'
+    ])
+    .pipe(gulp.dest('./vendor/bootstrap-social'))
 });
 
 // Compile SCSS
