@@ -1,0 +1,46 @@
+@media screen and (max-width: 640px) and (min-width: 240px) {
+  .navbar-custom .navbar-brand {
+    font-size: 11px;
+  }
+  .container h2.display-4 {
+    font-size: 2.5rem;
+  }
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  font-size: .6rem;
+}
+
+@media screen and (max-width: 640px) and (min-width: 240px) {
+  table p {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width:961px) and (min-width: 641px) {
+  table p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width:960px) {
+  table p {
+    font-size: 1rem;
+  }
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  text-decoration: underline;
+}
+.soc{
+  padding-top:10px;
+}
+.soc a {
+  display: inline-block;
+  width: 210px;
+}
+
+/* Redefine */
+.mt-5 {
+  margin-top: 2rem !important;
+}
+.mt-55 {
+  margin-top: 1rem!important;
+}
