@@ -56,10 +56,23 @@ header.masthead {
     padding-bottom: 10rem;
     .masthead-content {
       .masthead-heading {
-        font-size: 6rem;
+        font-size: 3.6rem;
       }
       .masthead-subheading {
-        font-size: 4rem;
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) and (min-width: 240px) {
+  header.masthead {
+    .masthead-content {
+      .masthead-heading {
+        font-size: 2.5rem;
+      }
+      .masthead-subheading {
+        font-size: 2rem;
       }
     }
   }
