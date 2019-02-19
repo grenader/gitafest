@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Фестиваль: Калейдоскоп наших сердец</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.min.css" rel="stylesheet">
+    <style>
+      @media screen and (max-width: 640px) and (min-width: 240px) {
+        .navbar-custom .navbar-brand {
+ 	  font-size: 11px;
+        }
+      }  
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+<!--
+        <div class="coll-sm-6">
+-->
+            <a class="navbar-brand" href="#" style="word-wrap: break-word">Фестиваль: Калейдоскоп наших сердец</a>
+<!--
+      </div>
+          <div class="coll-sm-6">
+-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+<!--
+          </div>
+-->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#dates">Даты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#place">Место</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#guests">Гости</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white">
+      <div class="masthead-content">
+        <div class="container">
+          <h1 class="masthead-heading mb-0">Фестиваль</h1>
+          <h2 class="masthead-subheading mb-0">Калейдоскоп наших сердец</h2>
+          <a href="#place" class="btn btn-primary btn-xl rounded-pill mt-5">Подробности</a>
+        </div>
+      </div>
+      <div class="bg-circle-1 bg-circle"></div>
+      <div class="bg-circle-2 bg-circle"></div>
+      <div class="bg-circle-3 bg-circle"></div>
+      <div class="bg-circle-4 bg-circle"></div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/gita1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4"><a name="dates">Даты:</a></h2>
+              <p>Ретрит: 30 июня - 4 июля</p>
+              <p>Фестиваль: 4 июля - 8 июля</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/gita2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+              <h2 class="display-4"><a name="place">Место:</a></h2>
+              <p>Ведическая ферма <a HREF="https://gnecofarm.org/">Гита-Нагари</a>: (<a HREF="https://gnecofarm.org/">https://gnecofarm.org/</a>) </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4"><a name="guests">Гости:</a></h2>
+                    <p>Марина Таргакова</p>
+                    <p>Дмитрий Пшонко</p>
+                </div>
+            </div>
+          <div class="col-lg-4 order-lg-1">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/gita-tar.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 order-lg-1">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/gita-phonko2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white small">Все права защищены &copy; GitaFest 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+      $(function() {
+	$('.navbar-collapse a').click(function(){
+    		$(".navbar-collapse").collapse('hide');
+	});
+      });
+  </script>
+
+  </body>
+
+</html>
