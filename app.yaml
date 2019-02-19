@@ -1,0 +1,24 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+skip_files:
+- ^node_modules$
+- ^scss$
+- ^.idea$
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /vendor/(.*)
+  static_files: vendor/\1
+  upload: vendor/(.*)
+
+- url: /img/(.*)
+  static_files: img/\1
+  upload: img/(.*)
+
+- url: /css/(.*)
+  static_files: css/\1
+  upload: css/(.*)
