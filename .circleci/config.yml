@@ -93,8 +93,8 @@ jobs:
       - run:
           name: List stuff
           command: |
-          pwd
-          ls -la
+            pwd
+            ls -la
 
       - run:
           name: Deploy to GCP
