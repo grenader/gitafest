@@ -101,7 +101,7 @@ jobs:
           name: Deploy to GCP
           command: |
             cd workspace
-            gcloud app deploy --project ${GOOGLE_PROJECT_ID} -v circle1
+            gcloud app deploy --project ${GOOGLE_PROJECT_ID}
 
 workflows:
   version: 2
