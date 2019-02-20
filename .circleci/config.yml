@@ -76,11 +76,9 @@ jobs:
           command: gcloud app deploy --project ${GOOGLE_PROJECT_ID} -v circle1
 
 workflows:
-  version: 2
   default:
     jobs:
       - build:
-
       - deploy:
         requires:
           - build
