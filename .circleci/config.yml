@@ -93,12 +93,15 @@ jobs:
       - run:
           name: List stuff
           command: |
+            cd workspace
             pwd
             ls -la
 
       - run:
           name: Deploy to GCP
-          command: gcloud app deploy --project ${GOOGLE_PROJECT_ID} -v circle1
+          command: |
+            cd workspace
+            gcloud app deploy --project ${GOOGLE_PROJECT_ID} -v circle1
 
 workflows:
   version: 2
