@@ -43,4 +43,13 @@ jobs:
           name: Build the application
           command: node node_modules/gulp/bin/gulp.js
 
-
+      - store_artifacts:
+          path: /*.html
+      - store_artifacts:
+          path: /css
+      - store_artifacts:
+          path: /vendor
+      - store_artifacts:
+          path: /img
+      - store_artifacts:
+          path: /files
