@@ -63,7 +63,7 @@ jobs:
           path: ./files
 
       - persist_to_workspace:
-          root: /tmp/dir
+          root: .
           paths:
             - app.yaml
             - index.html
