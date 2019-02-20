@@ -38,14 +38,9 @@ jobs:
           name: Install project dependencies
           command: npm install
 
-      # Install gulp
-      - run:
-          name: Install gulp build tool
-          command: npm install gulp
-
       # Build the application
       - run:
           name: Build the application
-          command: gulp
+          command: node node_modules/gulp/bin/gulp.js
 
 
