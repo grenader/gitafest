@@ -80,7 +80,7 @@ jobs:
 
     steps:
       - attach_workspace:
-          at: /tmp/workspace
+          at: workspace
       - run: |
           echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
           gcloud --quiet config set project ${GOOGLE_PROJECT_ID}
@@ -88,7 +88,13 @@ jobs:
 
       - run:
           name: Jump into stored workspace
-          command: cd /tmp/workspace
+          command: cd workspace
+
+      - run:
+          name: List stuff
+          command: |
+          pwd
+          ls -la
 
       - run:
           name: Deploy to GCP
