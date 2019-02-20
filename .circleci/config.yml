@@ -44,7 +44,15 @@ jobs:
           command: node node_modules/gulp/bin/gulp.js
 
       - store_artifacts:
-          path: ./*.html
+          path: ./index.html
+      - store_artifacts:
+          path: ./payment.html
+      - store_artifacts:
+          path: ./waiver.html
+      - store_artifacts:
+          path: ./robots.txt
+      - store_artifacts:
+          path: ./sitemap.xml
       - store_artifacts:
           path: ./css
       - store_artifacts:
