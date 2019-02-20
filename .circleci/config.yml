@@ -63,14 +63,14 @@ jobs:
           path: ./files
 
       - persist_to_workspace:
-        root: /tmp/dir
-        paths:
-          - app.yaml
-          - index.html
-          - css
-          - vendor
-          - img
-          - files
+          root: /tmp/dir
+          paths:
+            - app.yaml
+            - index.html
+            - css
+            - vendor
+            - img
+            - files
 
   deploy:
     docker:
