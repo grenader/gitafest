@@ -41,7 +41,7 @@ jobs:
       # Install gulp
       - run:
           name: Install gulp build tool
-          command: npm install gulp-cli
+          command: npm install gulp
 
       # Build the application
       - run:
