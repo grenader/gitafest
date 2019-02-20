@@ -62,14 +62,33 @@ jobs:
       - store_artifacts:
           path: ./files
 
+      - persist_to_workspace:
+        root: /tmp/dir
+          paths:
+            - app.yaml
+            - index.html
+            - css
+            - vendor
+            - img
+            - files
+
   deploy:
     docker:
       - image: google/cloud-sdk
+
+    working_directory: ~/repo
+
     steps:
+      - attach_workspace:
+          at: /tmp/workspace
       - run: |
           echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
           gcloud --quiet config set project ${GOOGLE_PROJECT_ID}
           gcloud --quiet config set compute/zone ${GOOGLE_COMPUTE_ZONE}
+
+      - run:
+          name: Jump into stored workspace
+          command: cd /tmp/workspace
 
       - run:
           name: Deploy to GCP
