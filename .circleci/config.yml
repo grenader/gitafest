@@ -35,13 +35,13 @@ jobs:
 
       # Install project dependencies
       - run:
-          name: Install local dependencies
+          name: Install project dependencies
           command: npm install
 
       # Install gulp
       - run:
-          name: Install local dependencies
-          command: npm install -g gulp-cli
+          name: Install gulp build tool
+          command: npm install gulp-cli
 
       # Build the application
       - run:
