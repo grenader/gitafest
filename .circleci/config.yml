@@ -44,12 +44,12 @@ jobs:
           command: node node_modules/gulp/bin/gulp.js
 
       - store_artifacts:
-          path: /*.html
+          path: ./*.html
       - store_artifacts:
-          path: /css
+          path: ./css
       - store_artifacts:
-          path: /vendor
+          path: ./vendor
       - store_artifacts:
-          path: /img
+          path: ./img
       - store_artifacts:
-          path: /files
+          path: ./files
