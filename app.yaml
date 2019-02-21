@@ -11,6 +11,18 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /(*.html)
+  static_files: \1
+  upload: (.*)
+
+- url: /(*.txt)
+  static_files: \1
+  upload: (.*)
+
+- url: /(*.xml)
+  static_files: \1
+  upload: (.*)
+
 - url: /vendor/(.*)
   static_files: vendor/\1
   upload: vendor/(.*)
