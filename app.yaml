@@ -11,17 +11,10 @@ handlers:
   static_files: index.html
   upload: index.html
 
-- url: /(*.html)
+- url: /(.+\.(html|txt|xml))$
   static_files: \1
-  upload: (.*)
-
-- url: /(*.txt)
-  static_files: \1
-  upload: (.*)
-
-- url: /(*.xml)
-  static_files: \1
-  upload: (.*)
+  upload: .+\.(html|txt|xml)$
+  application_readable: true
 
 - url: /vendor/(.*)
   static_files: vendor/\1
