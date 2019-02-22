@@ -8,7 +8,8 @@
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
-  font-size: .6rem;
+  font-size: .8rem;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 640px) and (min-width: 240px) {
@@ -25,17 +26,17 @@
 
 @media screen and (min-width: 960px) {
   table p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+  color: orange;
   text-decoration: underline;
 }
 
 .soc {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .soc a {
