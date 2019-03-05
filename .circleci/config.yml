@@ -76,7 +76,7 @@ jobs:
             - img
             - files
 
-  deploy:
+  deploy_2018:
     docker:
       - image: google/cloud-sdk
 
@@ -87,7 +87,7 @@ jobs:
           at: workspace
       - run: |
           echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
-          gcloud --quiet config set project ${GOOGLE_PROJECT_ID}
+          gcloud --quiet config set project gitafest2018
           gcloud --quiet config set compute/zone ${GOOGLE_COMPUTE_ZONE}
 
       - run:
@@ -105,17 +105,54 @@ jobs:
           name: Deploy to GCP
           command: |
             cd workspace
-            gcloud app deploy --project ${GOOGLE_PROJECT_ID}
+            gcloud app deploy --project gitafest2018
+
+  deploy_main:
+    docker:
+      - image: google/cloud-sdk
+
+    working_directory: ~/repo
+
+    steps:
+      - attach_workspace:
+          at: workspace
+      - run: |
+          echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
+          gcloud --quiet config set project gitafest
+          gcloud --quiet config set compute/zone ${GOOGLE_COMPUTE_ZONE}
+
+      - run:
+          name: Jump into stored workspace
+          command: cd workspace
+
+      - run:
+          name: List stuff
+          command: |
+            cd workspace
+            pwd
+            ls -la
+
+      - run:
+          name: Deploy to GCP
+          command: |
+            cd workspace
+            gcloud app deploy --project gitafest
 
 workflows:
   version: 2
   build-deploy:
     jobs:
       - build
-      - deploy:
+      - deploy_main:
           requires:
             - build
           filters:
             branches:
               only: master
+      - deploy_2018:
+          requires:
+            - build
+          filters:
+            branches:
+              only: 2018
 
