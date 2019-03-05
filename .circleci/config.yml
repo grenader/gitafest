@@ -86,7 +86,7 @@ jobs:
       - attach_workspace:
           at: workspace
       - run: |
-          echo $GCLOUD_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
+          echo $GCLOUD_2018_SERVICE_KEY | gcloud auth activate-service-account --key-file=-
           gcloud --quiet config set project gitafest2018
           gcloud --quiet config set compute/zone ${GOOGLE_COMPUTE_ZONE}
 
