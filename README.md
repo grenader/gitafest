@@ -4,7 +4,7 @@ GitaFest. Spiritual festival in North America web site
 Simple one page static web site built to be responsive.
 
 
-# Our site is buidl based on the following bootstrap example
+# Our site is built based on the following bootstrap example
 # [Start Bootstrap - One Page Wonder](https://startbootstrap.com/template-overviews/one-page-wonder/)
 
 [One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
