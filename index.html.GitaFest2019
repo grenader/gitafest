@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75781945-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-75781945-2');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Семейный фестиваль: "!!!7Я от мала до велика". Гита-Нагари, 3-7 июля 2019 года.</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font-Awesome default CSS -->
+    <link href="vendor/font-awesome/font-awesome.min.css" rel="stylesheet">
+    <!-- Social icons -->
+    <link href="vendor/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.min.css?v=4" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style type="text/css">
+        body
+        {
+            font-family:Verdana;
+        }
+        </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
+<!--
+        <div class="coll-sm-6">
+	    <img src="">
+            <a class="navbar-brand" href="#" style="word-wrap: break-word">Фестиваль: 7Я от мала до велика</a>
+	</div>
+      </div>
+          <div class="coll-sm-6">
+-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+<!--
+          </div>
+-->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <table border="0">
+           <tr>
+	      <img src="">
+              <a class="navbar-brand" href="#" style="word-wrap: break-word">Второй Североамериканский Фестиваль: GitaFest</a>
+           </tr>
+           <tr>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Фестиваль</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#price">Стоимость</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#form">Регистрация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#masters">Мастера</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Контакты</a>
+                </li>
+            </ul>
+           </tr>
+          </table>
+        </div>
+      </div>
+    </nav>
+    <header class="masthead text-center text-white">
+      <div class="masthead-content">
+        <div class="container smaller">
+            <h2 class="masthead-heading mb-0">GitaFest</h2>
+            <h3>Тема Фестиваля: "!!!7Я от мала до велика"<br>с Дмитрием Пшонко</h3>
+	    <h3>3-7 июля 2019 года</h3>
+	    <h4>ЭКО-ферма Гита Нагари (штат Пенсильвания)</h4>
+            <!--<h2 class="masthead-subheading mb-0">3 - 7 июля 2019 года</h2>-->
+          <a href="#about" class="btn btn-primary btn-xl rounded-pill mt-5">О Фестивале</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#form" class="btn btn-primary btn-xl rounded-pill mt-5">Регистрация</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#contact" class="btn btn-primary btn-xl rounded-pill mt-5">Контакты</a>
+            <br>
+            <div class="soc">
+                <a class="btn btn-block btn-social btn-facebook mt-55" HREF="https://www.facebook.com/GitaFest.info/" target="_blank">
+                    <span class="fa fa-facebook"></span>GitaFest на Facebook
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-block btn-social btn-google mt-55" HREF="https://www.instagram.com/gitafest/" target="_blank">
+                    <span class="fa fa-instagram"></span>GitaFest в Instagram
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-block btn-social btn-vk mt-55" HREF="https://vk.com/public162348862" target="_blank">
+                    <span class="fa fa-vk"></span>GitaFest ВКонтакте
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            </div>
+        </div>
+      </div>
+      <div class="bg-circle-1 bg-circle"></div>
+      <div class="bg-circle-2 bg-circle"></div>
+      <div class="bg-circle-3 bg-circle"></div>
+      <div class="bg-circle-4 bg-circle"></div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/big-logo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <a class="anchor" id="about"></a>
+                        <h2>О Фестивале</h2>
+                        <div style="font-style:italic; display:block; width:80%; text-align:left">
+Здравствуйте дорогие друзья!<br>
+С радостью спешим вам сообщить, что подготовка ко второму Североамериканскому фестивалю «7Я от мала до велика» уже началась! Фестиваль состоится в Гита Нагари с 3 по 7 Июля.<br>
+Мы приглашаем вас стать участниками этого грандиозного события!<br>
+<br>
+Что такое наш фестиваль в Гита Нагари:<br>
+<ul>
+  <li> Это новый опыт развития альтернативного подхода к отдыху и к жизни. Вам будет весело, легко и увлекательно. Вы получите много энергии, вдохновения и сил.</li>
+  <li> Это более глубокая и цельная программа, которая подойдёт и вам лично, и для поездки семьей или с друзьями.</li>
+</ul>  
+						</div>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle"  src="img/d_pshonko.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <a class="anchor" id="topic"></a>
+                        <h5><b>На нашем фестивале вас ждёт:</b></h5>
+                        <p>Утренние настройки и семинары с Дмитрием Пшонко:<br>
+			  <ul>
+                            <li>Семинар «Утешение сердца в трудные времена»: <br>проработка жизненных трудностей, преодоление  кризисов.</li>
+                            <li>Родовой семинар «Возвращение к Истокам»: <br>соединение с энергиями рода, обретение родовых благословений.</li>
+                            <li>Семинар «Предназначение. Сила влияния на судьбу»: <br>Судьба, свобода и предопределённость. Как победить негативную судьбу.</li>
+			  </ul>
+                        </p>
+                        <p>А также:<br>
+			  <ul>
+                            <li>Активный отдых, общение с единомышленниками для саморазвития и новых впечатлений, разнообразные мастер-классы, занятия йогой по утрам и вечерние посиделки у костра!</li>
+                            <li>Развитие и гармонизация 4 сфер вашей жизни: физической, эмоциональной, интеллектуальной и духовной</li>
+                            <li>Увлекательная детская программа для детей разных возрастов</li>
+                            <li>Разнообразное, вкусное вегетарианское питание, которое позволит вам улучшить здоровье и прийти в идеальную форму</li>
+                          </ul>
+			</p>
+
+                        <p>
+Приглашаются все: дети, мамы, папы, бабушки и дедушки. А также мы приглашаем участников различных образовательных проектов, таких как П3000, Благость, БВП, ИПДТ и другие, которые поделятся опытом участия и обучения в своих проектах.<br>
+<br>
+На фестивале произойдёт расширение вашего сердца! Ваше понятие семьи расширится от индивидуальной до большой семьи единомышленников и общества в целом.<br>
+<br>						
+						</p>
+						<p>
+Фестиваль творим мы сами! На предыдущем фестивале у нас сформировалась уникальная команда организаторов, которая за время подготовки и проведения фестиваля сплотилась и получила незабываемый опыт. Приглашаем всех желающих поучаствовать в организации фестиваля. Это уникальная возможность применить свои навыки и таланты в одном или нескольких департаментах. Научиться чему-то новому, чего вы никогда раньше не делали.
+<br>
+Хотите опробовать себя в новом качестве? Тогда, пожалуйста, свяжитесь с нами <a href="#contact">по телефону</a> или по <a HREF="mailto:info@gitafest.com?subject=Участие в организации фестиваля">info@gitafest.com</a>
+<br><br>
+Мы вас ждём в любом качестве: организатора или просто участника!
+<br><br>
+<b>Регистрация объявляется открытой!</b><br>
+Ждём ваших заявок.<br>
+                        </p>						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/register.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+                <a class="anchor" id="place"></a>
+                <h2 class="display-4">Место проведения</h2>
+              <p>Эко-ферма <a HREF="https://gnecofarm.org/" target="_blank">Гита-Нагари</a> (<a HREF="https://gnecofarm.org/" target="_blank">https://gnecofarm.org/</a>) </p>
+
+                <h3 class="display-6">Как доехать на ферму?</h3>
+                Адрес фермы: Gita Nagari Yoga Farm, 534 Gita Nagari Rd., Port Royal, PA 17082<br>
+                Не все навигаторы показывают правильный путь, поэтому, пожалуйста, распечатайте маршрут заранее. Возле фермы плохой телефонный сигнал.<br>
+                <a HREF="https://www.google.com/maps/dir/Port+Royal+Speedway,+302+6th+Street,+Port+Royal,+PA+17082/Gita+Nagari+Yoga+Farm,+534+Gita+Nagari+Rd,+Port+Royal,+PA+17082/@40.5089309,-77.5011235,12z/am=t/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x89c9327219b17071:0xa58a4d2b1df96f60!2m2!1d-77.3894655!2d40.5356431!1m5!1m1!1s0x89c93130d8357967:0x85dc3c62ac6e38bb!2m2!1d-77.4641657!2d40.4932566" target="_blank"> По этой ссылке вы найдете инструкцию, как доехать до фермы от ближайшего городка Port Royal.</a><br><br>
+                <h3 class="display-6">Трансфер</h3>
+                Сообщите, пожалуйста, если вам нужен трасфер до Гита-Нагари. Мы работаем над организацией carpool или трансферов (за дополнительную плату). Организаторы свяжутся с вами ближе к началу фестиваля, чтобы обсудить детали трансфера с вами.<br><br>
+                <h3 class="display-6">Как нас найти на ферме?</h3>
+                При въезде на ферму будут стоять указатели к стойке регистрации. Возле нее вас встретят волонтеры и помогут вам с регистрацией, расселением и ответят на все ваши вопросы.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/house.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <a class="anchor" id="accom"></a>
+                        <h2 class="display-4">Проживание</h2>
+                        <p>Заезд и расселение: <i>3 июля в полдень</i><br>
+                           Отъезд: <i>7 июля после обеда (который начинается в час пополудни)</i></p>
+						<p>
+                        Проживание в <a href="img/GitaFest_rooms.png" target="_blank">4-6-10-местных комнатах с двухъярусными кроватями</a>. Место для хранения вещей в комнатах очень ограничено: минимальный набор вешалок и крючков, нет шкафов, холодильников, стульев и тумбочек. В комнатах есть вентиляторы. Общие туалеты и душевые кабины находятся на этаже рядом с комнатами.<br>
+                            Mужчины и женщины (не в составе семьи) заселяются отдельно. К семьям из двух или трех человек будут подселяться другие участники фестиваля, для полного заполнения комнат, так как места в комнатах на ферме органичены.<br>
+                            Постельное белье, туалетная бумага, мыло для рук будет предоставлено.<br>
+                            В комнатах звукоизоляция невысокая, поэтому мы рекомендуем взять с собой затычки для ушей для тех, кто чувствителен к шуму.<br>
+                        </p>
+
+
+                        <h3 class="display-6">Размещение в отеле или палатке</h3>
+                        <p>Общее количество мест в комнатах ограничено.<br>
+                        Поэтому чем раньше вы зарегистрируетесь, тем выше вероятность, что вы получите место в комнатах. Другие варианты размещения: палатки на территории фермы (привозить с собой). Также вы можете остановиться в <A HREF="http://bit.ly/port-royal-hotels" target="_blank">близлежащем городке Port Royal, PA</A> (примерно 15 минут от фермы).<br>
+                        Обратите внимание, что места в гостиницах тоже быстро уходят, так что бронируйте все заранее.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">         
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/peacock3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <a class="anchor" id="take"></a>
+<!--
+                        <h2 class="display-4">Дополнительная информация</h2>
+-->
+                        <h3 class="display-6">Что с собой взять?</h3>
+                        <p>- Полотенца,<br>
+                            - Средства личной гигиены, а также фен и утюг при необходимости,<br>
+                            - Тапочки для душа и для помещения (согласно этикету фермы при входе в помещение нужно разуваться),<br>
+                            - Хорошее настроение!<br>
+                        </p>
+                        <h3 class="display-6">Что с собой НЕ брать!</h3>
+                        <p>На ферме КАТЕГОРИЧЕСКИ ЗАПРЕЩЕНЫ<br>
+                            - какие-либо продукты, содержащие мясо, рыбу, яйца,<br>
+                            - алкоголь (включая пиво),<br>
+                            - курение и любые формы интоксикации,<br>
+                            - домашних животных с собой брать НЕ разрешено.<br>
+                        </p>
+                        <h3 class="display-6">Единение с природой</h3>
+                        <p>Hа ферме отсутствует телефонная связь и интернет.<br>
+                            На ферме проживают коровы и павлины.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/food-masha.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <a class="anchor" id="food"></a>
+
+                        <h2 class="display-4">Питание</h2>
+
+                        <p>Лакто-вегетарианское трехразовое питание.</p>
+
+                        <p>Все готовят опытные повара, еда всегда очень вкусная и питательная.</p>
+
+                        <p>Стойки с питьевой водой будут всегда рядом.
+                            На ферме можно купить домашнее молоко и сыр.
+                        </p>
+
+                        <p>При необходимости предоставляется возможность выбора индивидуальной диеты (не включающей в себя рыбы, мяса, яиц).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <a class="anchor" id="sched"></a>
+
+                    <h2 class="display-4">Расписание</h2>
+                        <table border="1">
+                            <tr>
+				<th colspan="2"><br><b>3 июля, среда</b></th>
+                            </tr>
+                            <tr>
+                                <td width="30%">с 12.00</td>
+                                <td width="70%">Заезд и расселение</td>
+                            </tr>
+                            <tr>
+                                <td>13.00-14.00</td>
+                                <td>Обед</td>
+                            </tr>
+                            <tr>
+                                <td>16.00-18.00</td>
+                                <td>Торжественное открытие фестиваля</td>
+                            </tr>
+                            <tr>
+                                <td>18.00-19.00</td>
+                                <td>Ужин</td>
+                            </tr>
+                            <tr>
+                                <td>19.00-22.00</td>
+                                <td>Культурная программа</td>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><br><b>4 июля, четверг</b></th>
+                            </tr>
+                            <tr>
+                                <td>6:00-7:00</td>
+                                <td>Йога / Борьба</td>
+                            </tr>
+                            <tr>
+                                <td>7:00-8:30</td>
+                                <td>Настройка на день c Д. Пшонко</td>
+                            </tr>
+                            <tr>
+                                <td>8:30-10:00</td>
+                                <td>Завтрак, свободное время</td>
+                            </tr>
+                            <tr>
+                                <td>10:00-13:00</td>
+                                <td>Семинар Д. Пшонко / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>13:00-15:00</td>
+                                <td>Обед, свободное время</td>
+                            </tr>
+                            <tr>
+                                <td>15:00-17:00</td>
+                                <td>Программа для женщин с Враджалилой / Программа для мужчин с Д. Пшонко / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>17:00-18:00</td>
+				<td>Мастер-классы<b>*</b> / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>18:00-19:00</td>
+      				<td>Ужин</td>
+                            </tr>
+                            <tr>
+                                <td>19:00-20:00</td>
+                                <td>Групповая работа</td>
+                            </tr>
+                            <tr>
+                                <td>20:00-22:00</td>
+                                <td>Праздник Цвета - Holi</td>
+                            </tr>
+                            <tr>
+                                <td>22:00-</td>
+                                <td>Отбой. Спокойной ночи!</td>
+                            </tr>
+                            <tr>
+				<th colspan="2"><br><b>5 июля, пятница</b></th>
+                            </tr>
+                            <tr>
+                                <td>6:00-7:00</td>
+                                <td>Йога / Борьба / Суставная гимнастика</td>
+                            </tr>
+                            <tr>
+                                <td>7:00-8:00</td>
+                                <td>Настройка на день с Враджалилой</td>
+                            </tr>
+                            <tr>
+                                <td>8:30-10:00</td>
+                                <td>Завтрак, свободное время</td>
+                            </tr>
+                            <tr>
+                                <td>10:00-13:00</td>
+                                <td>Семинар Д. Пшонко / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>13:00-15:00</td>
+                                <td>Обед, свободное время</td>
+                            </tr>
+                            <tr>
+                                <td>15:00-17:00</td>
+                                <td>Семинар Пандит Даса / Клуб ищущих сердец: тренинг с Враджалилой и Экавирой / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>17:00-18:00</td>
+                                <td>Ярмарка талантов / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>18:00-19:00</td>
+                                <td>Ужин</td>
+                            </tr>
+                            <tr>
+                                <td>19:00-20:00</td>
+                                <td>Групповая работа</td>
+                            </tr>
+                            <tr>
+                                <td>20:00-22:00</td>
+                                <td>Культурная программа</td>
+                            </tr>
+                            <tr>
+                                <td>22:00-</td>
+                                <td>Отбой. Спокойной ночи!</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <table border="1">
+                            <tr>
+                                <th colspan="2"><br><b>6 июля, суббота</b></th>
+                            </tr>
+			    <tr>
+                                <td width="30%">6:00-7:00</td>
+                                <td width="70%">Йога / Борьба / Суставная гимнастика</td>
+                            </tr>
+                            <tr>
+                                <td>7:00-8:30</td>
+                                <td>Настройка на день c Д. Пшонко</td>
+                            </tr>
+                            <tr>
+                                <td>8:30-10:00</td>
+                                <td>Завтрак, свободное время</td>
+                            </tr>
+                            <tr>
+                                <td>10:00-12:00</td>
+                                <td>Семинар с Д. Пшонко / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>12:00-13:00</td>
+				<td>Мастер-классы<b>*</b> / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>13:00-14:00</td>
+                                <td>Обед, свободное время</td>
+                            </tr>
+                            <tr>
+                                <td>15:00-16:00</td>
+                                <td>Настройка на практическое здание с Д. Пшонко / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>16:00-18:00</td>
+                                <td>Групповая работа / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>18:00-19:00</td>
+                                <td>Ужин</td>
+                            </tr>
+                            <tr>
+                                <td>19:00-22:00</td>
+                                <td>Закрытие фестиваля</td>
+                            </tr>
+                            <tr>
+                                <td>22:00-</td>
+                                <td>Отбой. Спокойной ночи!</td>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><br><b>7 июля, воскресенье</b></th>
+                            </tr>
+                            <tr>
+                                <td>6:00-7:00</td>
+                                <td>Йога / Борьба</td>
+                            </tr>
+                            <tr>
+                                <td>7:00-8:30</td>
+                                <td>Настройка на день c Пандит Даса</td>
+                            </tr>
+                            <tr>
+                                <td>8:30-10:00</td>
+                                <td>Завтрак, свободное время</td>
+                            </tr>
+                            <tr>
+                                <td>11:00-12:00</td>
+				<td>Мастер-классы<b>&ast;</b> / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>12:00-13:00</td>
+                                <td>Мастер-класс &quot;Парная Йога-растяжка&quot; / Детская программа</td>
+                            </tr>
+                            <tr>
+                                <td>13:00-14:00</td>
+                                <td>Обед</td>
+                            </tr>
+                            <tr>
+                                <td><br></td>
+                                <td>Выезд</td>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><br><br> &ast; Мастер-классы: <ul><li>Восточные танцы</li><li>Нумерология</li><li>Арт-терапия</li><li>Соционика</li><li>Пранаяма</li></ul></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 order-lg-1">
+                    <div class="p-5">
+                        <a class="anchor" id="price"></a>
+                        <h2 class="display-4">Стоимость</h2>
+                        <table border="1">
+                            <tbody>
+                            <tr>
+                                <td><p><strong>На 1 человека</strong></p></td>
+                                <td><p><strong>Цена</strong></p></td>
+                                <td><p><strong>Включает</strong></p></td>
+                                <td><p><strong><u>НЕ</u> включает</strong></p></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Базовая цена</p>
+                                </td>
+                                <td>
+                                    <p>$340</p>
+                                </td>
+                                <td>
+                                    <p>3-х разовое питание<br>все мероприятия фестиваля</p>
+                                </td>
+                                <td>
+                                    <p>Проживание</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Полная цена<br>(17 лет и старше)</p>
+                                </td>
+                                <td>
+                                    <p>$400</p>
+                                </td>
+                                <td>
+                                    <p>Совместное проживание в 4-6-10-местных комнатах<br>
+                                       3-х разовое питание<br>все мероприятия фестиваля</p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="28%">
+                                    <p>Для проживания в домиках на ферме: <br>
+				       Ребенок от 6 до 16 лет (включительно)<br>
+				       Ребенок до 5 лет (включительно), если ему нужна отдельная кровать</p>
+                                </td>
+                                <td width="22%">
+                                    <p>$170 за первого ребенка,<br>
+                                       $120 за второго ребенка,<br>
+                                        $70 за третьего и далее.</p>
+                                </td>
+                                <td>
+                                    <p>Проживание<br>
+                                       3-х разовое питание<br>все мероприятия фестиваля</p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+				    <p>Для проживания в палатке или отеле: <br>
+				       Ребенок от 6 до 16 лет (включительно)</p>
+                                </td>
+                                <td>
+                                    <p>$70</p>
+                                </td>
+                                <td>
+                                    <p>3-х разовое питание<br>все мероприятия фестиваля.</p>
+                                </td>
+                                <td>
+                                    <p>Отдельная кровать</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+				    <p>Ребенок до 5 лет (включительно), если <b>не</b> нужна отдельная кровать</p>
+                                </td>
+                                <td>
+                                    <p>$0</p>
+                                </td>
+                                <td>
+                                    <p>Проживание (на одной кровати с родителем)<br>
+                                       3-х разовое питание<br>все мероприятия фестиваля.</p>
+                                </td>
+                                <td>
+                                    <p>Отдельная кровать</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Место для палатки (без ограничения количества проживающих в палатке)</p>
+                                </td>
+                                <td>
+                                    <p>$50</p>
+                                </td>
+                                <td>
+                                    <p>Только проживание в палатке</p>
+                                </td>
+                                <td>
+                                    <p>3-х разовое питание<br>все мероприятия фестиваля</p>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <p>
+                            При регистрации к общей сумме добавляется 3% комиссии PayPal.<br>
+                            Мотель бронируется самостоятельно каждым гостем фестиваля.<br>
+                            В случае отмены регистрации возврат средств в полном объеме (за исключением комиссии Paypal в размере 3%) осуществляется только до 3 мая. По окончании этого срока возврат средств не осуществляется.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/gita1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <a class="anchor" id="regist"></a>
+                        <h2 class="display-4">Регистрация</h2>
+                        <h3 class="display-6">Процесс регистрации</h3>
+                        <p>
+                            1.	Заполнить <a HREF="#form">регистрационную форму на нашем сайте</a> либо по <a HREF="https://docs.google.com/forms/d/e/1FAIpQLSdeZ_MDBgsiHPTdvuXIReMEKi5HRs9XGGawopKdNRDOg7Z8jQ/viewform?entry.171150788=0&entry.1122640701=0&entry.394529018=2019-07-03+12:00&entry.2010208736=2019-07-07+14:00&entry.233481907=%D0%B2+%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B5+%D0%BD%D0%B0+%D1%84%D0%B5%D1%80%D0%BC%D0%B5&entry.1130676039=%D0%94%D0%B0" target="_blank">ссылке</a><br>
+                            2.	В течение 3-х дней вы получите элетронное письмо от info@gitafest.com с подробностями об оплате<br>
+                            3.	Произведите оплату в течение 7 дней и перешлите подтверждение вашей оплаты на <a HREF="mailto:info@gitafest.com?subject=Оплата с сайта">info@gitafest.com</a>.<br>
+                            4.	После получения нами вашего платежа, вам прийдет электронное письмо от info@gitafest.com с  окончательным подтверждением регистрации. В случае непоступления оплаты в течение вышеуказанного срока, ваша предварительная регистрация отменяется.<br><br>
+                            Если у вас возникнут вопросы на любом этапе, <a href="#contact">пишите или звоните</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 order-lg-1">
+                    <div class="p-5">
+                        <a class="anchor" id="form"></a>
+                        <h3 class="display-6">Форма регистрации</h3>
+			            <div class="googleforms">
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdeZ_MDBgsiHPTdvuXIReMEKi5HRs9XGGawopKdNRDOg7Z8jQ/viewform?entry.171150788=0&entry.1122640701=0&entry.394529018=2019-07-03+12:00&entry.2010208736=2019-07-07+14:00&entry.233481907=%D0%B2+%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%B5+%D0%BD%D0%B0+%D1%84%D0%B5%D1%80%D0%BC%D0%B5&entry.1130676039=%D0%94%D0%B0&embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                        </div>			    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 order-lg-1">
+                    <div class="p-5" style="padding-bottom: 0 !important;">
+                        <a class="anchor" id="masters"></a>
+                        <h2 class="display-4">Мастера</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 order-lg-2">
+                    <div class="p-5">
+                        <a HREF="https://www.youtube.com/results?search_query=%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9+%D0%BF%D1%88%D0%BE%D0%BD%D0%BA%D0%BE" target='_blank'><img class="img-fluid rounded-circle" src="img/gita-phonko2.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 order-lg-1">
+                    <div class="p-5">
+                        <h3 class="display-6"><a HREF="https://www.youtube.com/results?search_query=%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9+%D0%BF%D1%88%D0%BE%D0%BD%D0%BA%D0%BE" target='_blank'>Дмитрий Пшонко</a></h3>
+                        <p>Дмитрий Пшонко - консультант по личностному развитию и взаимоотношениям, лектор образовательного центра О.Г. Торсунова "Сарасвати", сертифицированный ведущий системных семейных расстановок и структурных расстановок (ИКСР, г.Москва, WISL, Германия), участник программы «Трансперсональный тренинг Грофа» (GТТ), специалист образовательного проекта «Психология третьего тысячелетия», член Профессиональной психотерапевтической лиги, практикующий гипнотерапевт (сертификат ИгиСП (Москва)), член Ассоциации трансперсональной психологии и психотерапии, сертифицированный практик Холотропного Дыхания™ (международный сертификат GTT). Лекции, семинары и тренинги Дмитрия проходят во многих городах России, а также в Беларуси, Украине, Прибалтике и других странах.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <a class="anchor" id="contact"></a>
+                        <h2 class="display-4">Контакты</h2>
+                        <p>Кася: 1-347-292-7710 (США)</p>
+                        <p>Аня: 1-647-701-4838 (Канада)</p>
+                        <p><a HREF="mailto:info@gitafest.com?subject=Вопрос с сайта">info@gitafest.com</a></p>
+                        <p><a HREF="http://www.gitafest.com/" target="_blank">http://www.gitafest.com</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/rabbit.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <div id="google_translate_element"></div><p class="m-0 text-center text-white small">
+Все права защищены &copy; GitaFest 2019&nbsp;&nbsp;&nbsp;&nbsp;<a HREF='/waiver.html'>Legal Waiver</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="btn btn-social-icon btn-facebook" HREF="https://www.facebook.com/GitaFest.info/" target="_blank">
+              <span class="fa fa-facebook"></span>
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="btn btn-social-icon btn-google" HREF="https://www.instagram.com/gitafest/" target="_blank">
+              <span class="fa fa-instagram"></span>
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="btn btn-social-icon btn-vk" HREF="https://vk.com/public162348862" target="_blank">
+              <span class="fa fa-vk"></span>
+          </a>
+      </p>
+
+	  <script type="text/javascript">
+	      function googleTranslateElementInit() {
+	          new google.translate.TranslateElement({ pageLanguage: 'ru', includedLanguages: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, autoDisplay: false }, 'google_translate_element');
+	      }
+      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function () {
+            $('.navbar-collapse a').click(function () {
+                $(".navbar-collapse").collapse('hide');
+            });
+        });
+    </script>
+</body>
+</html>
