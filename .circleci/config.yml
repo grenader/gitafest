@@ -43,12 +43,19 @@ jobs:
           name: Build the application
           command: node node_modules/gulp/bin/gulp.js
 
+      # Build the application
+      - run:
+          name: Collect files from root folder in one place
+          command: |
+            mkdir root-folder
+            cp *.html root-folder/
+
       - store_artifacts:
-          path: ./index.html
-      - store_artifacts:
-          path: ./payment.html
-      - store_artifacts:
-          path: ./waiver.html
+          path: ./root-folder
+#      - store_artifacts:
+#          path: ./payment.html
+#      - store_artifacts:
+#          path: ./waiver.html
       - store_artifacts:
           path: ./robots.txt
       - store_artifacts:
