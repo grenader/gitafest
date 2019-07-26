@@ -66,6 +66,7 @@ jobs:
           root: .
           paths:
             - app.yaml
+            - ./*.html
             - index.html
             - waiver.html
             - payment.html
